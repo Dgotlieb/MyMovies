@@ -1,0 +1,80 @@
+
+
+
+
+    <resources>
+        <string name="app_name">רשימת סרטים</string>
+        <string name="hello_world"> שלום עולם</string>
+        <string name="send_by_email">שלח באי-מייל</string>
+        <string name="send_by_whatsApp">שלח בוואטספ</string>
+        <string name="send_by_message">שלח בהודעה</string>
+        <string name="Colors_white">לבן</string>
+        <string name="colors_red"> אדום</string>
+        <string name="colors_blue">כחול </string>
+        <string name="colors_green">ירוק</string>
+        <string name="edit">עריכה</string>
+        <string name="delete">מחק</string>
+        <string name="cancel">ביטול</string>
+        <string name="exit">יציאה</string>
+        <string name="drawer_open">פתיחה</string>
+        <string name="drawer_close">סגירה</string>
+        <string name="DrawerMenu">תפריט</string>
+        <string name="hebrew">עברית</string>
+        <string name="share">שתף עם...</string>
+        <string name="InternetHint">הכנס סרט לחיפוש</string>
+        <string name="deleteAllButton">מחק הכל</string>
+        <string name="showAllButton">Show all</string>
+        <string name="showByIdButton">Show by id</string>
+        <string name="action_settings">הגדרות</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="my_notes_button">My notes</string>
+        <string name="drop_box">DropBox</string>
+        <string name="CancelButton">ביטול</string>
+        <string name="save">שמור</string>
+        <string name="clear">נקה</string>
+        <string name="year">שנת יציאה </string>
+        <string name="movieTitle">שם הסרט</string>
+        <string name="deleteAllMovies">מחק את כל הסרטים</string>
+        <string name="sureDeleteAll">האם אתה בטוח שברצונך למחוק את כל הסרטים?</string>
+        <string name="DeleteAllButton">מחק את כל הסרטים</string>
+        <string name="searchDialog">חיפוש</string>
+        <string name="whatLooking">מה אתה מחפש</string>
+        <string name="search">חפש</string>
+        <string name="rating">דירוג</string>
+        <string name="watched">צפיתי</string>
+        <string name="movieAdded">סרט נוסף בהצלחה</string>
+        <string name="deletedSucess">סרט נמחק בהצלחה </string>
+        <string name="sucessfullySent">סרט נשלח בהצלחה</string>
+        <string name="nothingAdded">לא נוסף סרט</string>
+        <string name="colorsChange">תוכל לשנות את הצבע בכל עת תחת אפשרויות</string>
+        <string name="languageChange">תוכל לשנות את השפה בכל עת תחת אפשרויות</string>
+        <string name="actors">שחקנים</string>
+        <string name="plot">תקציר</string>
+        <string name="genre">זאנר</string>
+        <string name="director">במאי</string>
+        <string name="url">קישור</string>
+        <string name="imdbRating">IMDB דירוג</string>
+        <string name="imdb_id">imdb מזהה</string>
+        <string name="poster">תמונה</string>
+        <string name="type">סוג</string>
+        <string name="addMovieDialog">הוסף סרט</string>
+        <string name="dialogNessage">מאיפה תרצה להוסיף את הסרט?</string>
+        <string name="Manually">ידנית</string>
+        <string name="InternetAdd">אינטרנט</string>
+        <string name="problemDownloadImage">בעיה בהורדת תמונה, נסה שוב מאוחר יותר</string>
+        <string name="Loading">טוען...</string>
+        <string name="backgroundTitle">רקע</string>
+        <string name="whichColor">איזה צבע תבחר?</string>
+        <string name="blue">כחול</string>
+        <string name="green">ירוק</string>
+        <string name="red">אדום</string>
+        <string name="pressToEnlarge">לחץ להגדלה</string>
+        <string name="isNotOnList">לא ברשימה שלך</string>
+        <string name="SureToExit">האם אתה בטוח שברצונך לצאת?</string>
+        <string name="Exit">יציאה</string>
+        <string name="advancedOptions">הגדרות מתקדמות</string>
+        <string name="mustFill">נא למלא את שם הסרט</string>
+        <string name="error">שגיאה</string>
+
+    </resources>
+

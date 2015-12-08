@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+android:title="Preferences">
+
+<ListPreference
+android:key="ColorSortOption"
+android:title="Background colors"
+android:summary="Set sort colors options"
+android:defaultValue="3"
+android:dialogTitle="Choose background color"
+android:entries="@array/colors"
+android:entryValues="@array/colorsValues" />
+
+    <ListPreference
+        android:key="LanguageSortOption"
+        android:title="Language"
+        android:summary="Set Sort Language Options"
+        android:defaultValue="6"
+        android:dialogTitle="Choose Language"
+        android:entries="@array/Language"
+        android:entryValues="@array/LanguageValues" />
+</PreferenceScreen>
+
+
+

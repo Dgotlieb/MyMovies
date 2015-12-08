@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_edit_layout"
+    android:layout_alignParentTop="true"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:id="@+id/editLinearLayout"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/tool_bar_edit"
+        android:id="@+id/appBar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/movieTitle"
+        android:singleLine="true"
+        android:id="@+id/TitleEditView"
+        android:layout_gravity="center_horizontal"
+         />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginBottom="20sp"
+        android:hint="@string/year"
+        android:id="@+id/YearEditView"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_marginBottom="20sp"
+        android:hint="@string/plot"
+        android:id="@+id/PlotEditView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imdb_id_ediText"
+        android:hint="@string/imdb_id"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/typEdiText"
+        android:hint="@string/type"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster_ediText"
+            android:hint="@string/poster"
+            android:layout_weight="4"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadImage"
+            android:layout_weight="1"
+            android:background="@color/MaterialBlue"
+            android:src="@drawable/refresh_edit"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/errorMsg"
+            android:layout_gravity="center_horizontal" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/movie_photo"
+        android:layout_gravity="center"
+        android:id="@+id/poster"
+        android:maxHeight="50sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@id/poster"
+            android:layout_height="wrap_content"
+            android:text="@string/pressToEnlarge"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/rating"
+            android:id="@+id/Rating" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:id="@+id/thumb"
+            android:layout_weight="1"
+            android:src="@drawable/thumb_up"
+            android:layout_gravity="right" />
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RatingBar"
+            android:numStars="10"
+            android:layout_weight="1.5"
+            android:max="10"
+            android:rating="5.0"
+            android:stepSize="0.5" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/watched"
+            android:id="@+id/watchedCheckBox" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/CancelButton"
+                android:layout_weight="1" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:layout_weight="1"
+                android:id="@+id/SaveButton" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/ClearButton"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+    </android.support.v4.widget.DrawerLayout>
